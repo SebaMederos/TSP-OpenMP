@@ -12,3 +12,9 @@ proyecto.
 3. Ejecutar el proyecto con el comando:
     ```
     ./SA <archivo.tsp>
+
+En algunos ambientes es posible que se deba ejecutar con las siguientes banderas:
+    ```
+    -std=c99 -D_POSIX_C_SOURCE=199309L
+    
+Definen el estandar de compilación y la fuente para el header time.h
