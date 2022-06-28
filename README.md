@@ -9,9 +9,9 @@ proyecto.
 2. Compilar el proyecto con el comando:
     ```
     gcc -o SA SA.c -fopenmp -l
-3. En algunos ambientes es posible que se deba ejecutar con las siguientes banderas:
+- En algunos ambientes es posible que se deba ejecutar con las siguientes banderas:
     ```
     -std=c99 -D_POSIX_C_SOURCE=199309L
-4. Ejecutar el proyecto con el comando:
+3. Ejecutar el proyecto con el comando:
     ```
     ./SA <archivo.tsp>
