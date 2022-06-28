@@ -8,11 +8,11 @@ Pasos para ejecturar el proyecto
 proyecto.
 2. Compilar el proyecto con el comando:
     ```
-    gcc -o SA SA.c -fopenmp -lm
+    gcc -o SA SA.c -fopenmp -l
+2.1 En algunos ambientes es posible que se deba ejecutar con las siguientes banderas:
+    ```
+    -std=c99 -D_POSIX_C_SOURCE=199309L
 3. Ejecutar el proyecto con el comando:
     ```
     ./SA <archivo.tsp>
-En algunos ambientes es posible que se deba ejecutar con las siguientes banderas:
-    ```
-    -std=c99 -D_POSIX_C_SOURCE=199309L
 
