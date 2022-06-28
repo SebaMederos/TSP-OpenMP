@@ -12,6 +12,9 @@ proyecto.
 3. Ejecutar el proyecto con el comando:
     ```
     ./SA <archivo.tsp>
+3. Ejecutar el proyecto con el comando:
+    ```
+    ./SA <archivo.tsp>
 
 En algunos ambientes es posible que se deba ejecutar con las siguientes banderas:
     ```
