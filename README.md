@@ -15,4 +15,7 @@ proyecto.
     -std=c99 -D_POSIX_C_SOURCE=199309L
 3. Ejecutar el proyecto con el comando:
     ```
-    ./SA <archivo.tsp>
+    ./tsp_NUM numero_de_hilos
+- Por ejemplo:
+    ```
+    -./tsp_1024 32
