@@ -9,7 +9,7 @@ Pasos para ejecturar el proyecto
 proyecto.
 2. Compilar el proyecto con el comando:
     ```
-    gcc -o SA SA.c -fopenmp -l
+    gcc -o GA par_main.c -fopenmp -l
 - En algunos ambientes es posible que se deba ejecutar con las siguientes banderas:
     ```
     -std=c99 -D_POSIX_C_SOURCE=199309L
@@ -18,4 +18,4 @@ proyecto.
     ./tsp_NUM numero_de_hilos
 - Por ejemplo:
     ```
-    -./tsp_1024 32
+    ./tsp_1024 32
