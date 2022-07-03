@@ -461,13 +461,13 @@ int main(int argc, char **argv)
 	//cout << endl << "Starting evolution..." << endl << endl;
 
 
-	printf("N= %d with p = %d\n",CITIES,thread_count);
+	printf("N= %d con p = %d\n",CITIES,thread_count);
 	double stime = omp_get_wtime();
 	//#	pragma omp parallel num_threads(thread_count)
 	evolve(population1);
 	double etime = omp_get_wtime();
 	printf("Evolucion Finalizada\n");
-	printf("N= %d with p = %d\n",CITIES,thread_count);
+	printf("N= %d con p = %d\n",CITIES,thread_count);
 	printf("EN TIEMPO: %fs\n",(etime-stime));
 	return 0;
 }
