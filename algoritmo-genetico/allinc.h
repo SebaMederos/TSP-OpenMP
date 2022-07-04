@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <iostream>
 
-#define CITIES 512
+#define CITIES 300
 #define POP_SIZE 10
 #define TOURN_N 10
 #define MUTATE_POINTS 1
