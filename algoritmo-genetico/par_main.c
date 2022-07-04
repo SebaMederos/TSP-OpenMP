@@ -447,7 +447,7 @@ int main(int argc, char **argv)
 	//cout << "Initial sorted population: " << endl;
 	//printPop(population1);
 
-	printf("watafa");	
+	printf("fp");	
 	for(int i=0; i< POP_SIZE-1; i++){	
 		printf("[");	
 		for(int j=0; j< 20; j++){	
@@ -455,7 +455,7 @@ int main(int argc, char **argv)
 		}	
 		printf("] fitness: %d\n\n", fitness(population1.pop[i]));	
 	}	
-	printf("watafa");	
+	printf("fp");	
 
 	printf("\n\nEmpezando Evolucion...\n\n");
 	//cout << endl << "Starting evolution..." << endl << endl;
